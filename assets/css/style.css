@@ -14,13 +14,20 @@
 /* Global Style */
 body {
     font-family: "Playfair Display", sans-serif;
+    color: var(--highlight-color);
 }
 
 h1 {
     font-family: "Great Vibes", roboto;
 }
 
-
+#hero {
+    background-image: url(../images/hero-image.png);
+    background-size: cover;
+    background-position: 50% 90%;
+    min-height: 500%;
+    padding: 5% 7%;
+}
 
 
 
