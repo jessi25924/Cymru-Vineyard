@@ -14,6 +14,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
     <link rel="manifest" href="assets/images/site.webmanifest">
 
+    <!-- Font Awesome Script-->
+    <script src="https://kit.fontawesome.com/098aed24e4.js" crossorigin="anonymous"></script>
+
     <!-- Bootstrap CSS link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
@@ -21,10 +24,62 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100"> <!-- classes in body has been added to ensure th efooter will stay at the bottom of the page-->
+    <!-- Navbar section -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link" href="#">Book Now</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
     <h1>Cymru Vineyard</h1>
     <p>Since 2024</p>
 
+
+    <!-- Footer -->
+     <!--class mt-auto has been added to keep the footer at the bottom of the page-->
+    <footer class="mt-auto">
+    <section>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <p class="h5">Contacts</p>
+            <ul>
+              <li>Email: cymruvineyard@uk.com</li>
+              <li>Phone: 080033444</li>
+              <li>Address: South Wales, UK</li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="h5">Follow Us</p>
+            <ul>
+              <li><a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (open in a new tab)">Facebook<i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (open in a new tab)">Instagram<i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="https://www.Youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (open in a new tab)">Youtube<i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    </footer>
     <!-- Bootstrap JS Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
