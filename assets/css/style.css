@@ -28,3 +28,17 @@ h1 {
 footer ul {
     list-style: none;
 }
+
+.no-underline {
+    text-decoration: none;
+    color: var(--highlight-color);
+}
+
+footer .container {
+    color: var(--highlight-color);
+}
+
+footer {
+    background-color: var(--highlight-color-light);
+}
+
