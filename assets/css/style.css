@@ -1,6 +1,16 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 body {
-    color:blueviolet;
+    font-family: "Playfair Display", sans-serif;
 }
+
+h1 {
+    font-family: "Great Vibes", roboto;
+}
+
+/* CSS Variables*/
+
 
 /* Footer */
 footer ul {
