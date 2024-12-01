@@ -63,9 +63,9 @@ h1 {
 }
 
 /* Footer */
-footer ul {
-    list-style: none;
-}
+.table.table-dark {
+    background-color: transparent;
+} /* !need to be work on as it is still not oveeriding the table! */
 
 .no-underline {
     text-decoration: none;
