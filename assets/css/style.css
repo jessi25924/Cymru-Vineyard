@@ -33,7 +33,7 @@ h1 {
 
 /* Navbar */
 #navbar {
-    background-color: var(--highlight-color-light); /* Light background */
+    background-color: var(--primary-color); /* Light background */
     color: var(--background-color); /* Text contrasting with the background */
 }
 
@@ -57,6 +57,17 @@ h1 {
 }
 
 
+/* about us section*/
+.sub-heading-title,
+p {
+    color: var(--highlight-color-light);
+}
+
+.about-us img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 /* button */
 #btn-light {
     color: #CBA135;
@@ -77,6 +88,6 @@ footer .container {
 }
 
 footer {
-    background-color: var(--highlight-color-light);
+    background-color: var(--primary-color);
 }
 
