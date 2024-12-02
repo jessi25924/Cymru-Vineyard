@@ -59,9 +59,8 @@ h1 {
 
 
 /* about us section*/
-.sub-heading-title,
-p {
-    color: var(--highlight-color-light);
+#about-us {
+    color: var(--background-color);
 }
 
 .about-us img {
