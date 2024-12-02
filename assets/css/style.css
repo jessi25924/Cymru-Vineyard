@@ -6,10 +6,10 @@
     --primary-font: "Playfair Display", sans-serif;
     --secondary-font: "Great Vibes", roboto;
     --primary-color: #014D4E; /* emerald green*/
-    --secondary-color: #CBA135; /*champagne gold*/
+    --secondary-color: #4B0F24; /*rich merlot*/
     --highlight-color: #FFFFF0; /*ivory*/
     --highlight-color-light: #333333; /*charcoal black*/
-    --background-color: #4B0F24; /*rich merlot*/
+    --background-color: #CBA135; /*champagne gold*/
     --hover-color: gold; 
 }
 
@@ -27,6 +27,7 @@ h1 {
 #hero {
     background-image: url(../images/hero-image1.png);
     background-size: cover;
+    background-attachment: fixed;
     background-position: 50% 90%;
     min-height: 500%;
     padding: 5% 7%;
@@ -60,7 +61,7 @@ h1 {
 
 /* about us section*/
 #about-us {
-    color: var(--background-color);
+    color: var(--secondary-color);
 }
 
 .about-us img {
@@ -118,7 +119,7 @@ footer {
 
   /* booking page */
 #header {
-    color: var(--background-color);
+    color: var(--secondary-color);
 }
 
 body {
@@ -126,7 +127,8 @@ body {
 }
 
 #booking-form {
-    color: var(--background-color);
+    color: var(--secondary-color);
+    background-color: #F5F5F5;
 }
 
 /* Modal */
