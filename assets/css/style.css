@@ -17,6 +17,9 @@
 body {
     font-family: "Playfair Display", sans-serif;
     color: var(--highlight-color);
+    padding-top: 60px;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -28,7 +31,7 @@ h1 {
     background-image: url(../images/hero-image1.png);
     background-size: cover;
     background-attachment: fixed;
-    background-position: 50% 90%;
+    background-position: 50% 100%;
     min-height: 500%;
     padding: 5% 7%;
 }
@@ -36,7 +39,7 @@ h1 {
 /* Navbar */
 #navbar {
     background-color: var(--primary-color); /* Light background */
-    color: var(--background-color); /* Text contrasting with the background */
+    color: var(--highlight-color-light); /* Text contrasting with the background */
 }
 
 #navbar .navbar-brand {
