@@ -74,14 +74,6 @@ h1 {
 }
 
 /* Footer */
-.table.table-dark {
-    background-color: transparent;
-} /* !need to be work on as it is still not oveeriding the  background color of the table! */
-
-.no-underline {
-    text-decoration: none;
-    color: var(--highlight-color);
-}
 
 footer .container {
     color: var(--highlight-color);
@@ -89,6 +81,26 @@ footer .container {
 
 footer {
     background-color: var(--primary-color);
+}
+
+/* opening times */
+.table.table-dark {
+    background-color: transparent;
+}
+
+.table.table-dark th,
+.table.table-dark td {
+    background-color: transparent;
+}
+
+.custom-table {
+    width: 75%;
+}
+
+/* social networks*/
+.no-underline {
+    text-decoration: none;
+    color: var(--highlight-color);
 }
 
 /* CSS style */
