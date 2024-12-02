@@ -113,3 +113,11 @@ body {
     color: var(--background-color);
 }
 
+/* Modal */
+#confirmationModal {
+    color: black;
+}
+
+#confirmationModalLabel {
+    color: black;
+}
