@@ -109,5 +109,7 @@ body {
     font-family: var(--secondary-font);
 }
 
-
+#booking-form {
+    color: var(--background-color);
+}
 
